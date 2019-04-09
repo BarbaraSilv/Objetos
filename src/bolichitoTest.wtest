@@ -86,3 +86,8 @@ test "El bolichito con una remera y una pelota puede ofrecerle algo a Luisa" {
 	
 	assert.notThat(bolichito.puedeOfrecerleAlgoA(luisa))
 }
+
+
+test"el material de la placa brilla"{
+	assert.that(placa.material().brilla())
+}
